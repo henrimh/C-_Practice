@@ -1,31 +1,53 @@
 #include <iostream>
 #include <string>
+#include <math.h>
 
 using namespace std;
 
-//The program solves the final product of the input numbers.
+//The program solves the final product of the input numbers modulus 10^9 +7.
 int main() {
 	
 	int n;			// Number of inputs	
+	long long int answer = 1;
+	long long int modulusValue = pow(10, 9) + 7;
+	
 	string input;	// Input numbers with a space between them. ie. "1 2 3"
+	string buffer;
 
 	cin >> n;
-
-	//K‰yt‰ yht‰ seuraavista clearaus metodeista.
-	// selvit‰ miten jokainen toimii.
-
-	//cin.seekg(0, ios::end); // Clearaa j‰lkeen p‰in
-	cin.clear();
-	//cin.ignore(INT_MAX, '\n'); // Clearaa ennen t‰t‰. 
 	
-	//cin.get(); //toimii yksin‰‰n streamin tyhj‰‰miseen
+	//input = new int[n];
 
-	getline(cin, input);
+	cin.ignore();	//Got to clear the next char in input stream. Which should be '\n'.
 
-	for (int i = 0; i < n * 2 - 1; i += 2)
+		// For future reference. The next two rows clear the whole input stream.
+	//cin.clear();
+	//cin.ignore(INT_MAX, '\n'); 
+
+	getline(cin, input, '\n');
+
+	// There most definitely is a better way to read the string than going character by character... :D
+	for (unsigned int i = 0; i < input.length(); i++)
 	{
-		cout << i;
-		cout << input[i] << endl;
-		//i = i + 2;
+		if (input[i] != 32) // 32 is ASCII value for " " (space)
+		{
+			buffer.append(input, i, 1);
+		}
+		else
+		{
+			answer *= stoi(buffer); //stoi converts string value to int
+
+			answer = answer % modulusValue;
+
+			buffer.clear();
+		}
 	}
+
+	answer *= stoi(buffer);
+	buffer.clear();
+	answer = answer % modulusValue;
+
+
+	cout << answer;
+	return 0;
 }
