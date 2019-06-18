@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PalindromExercise.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FindPrimeNumbers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FinalProduct.cpp">
+    <ClCompile Include="..\IO_exercises\FinalProduct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

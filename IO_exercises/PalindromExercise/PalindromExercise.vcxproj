@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9C23A87B-B004-4C4F-A3A2-141E37ED3F4A}</ProjectGuid>
-    <RootNamespace>IOexercises</RootNamespace>
+    <ProjectGuid>{0956B7C9-49AF-45DD-A3B1-ECD440BB83CA}</ProjectGuid>
+    <RootNamespace>PalindromExercise</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,9 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FinalProduct.cpp" />
-    <ClCompile Include="FindPrimeNumbers.cpp" />
-    <ClCompile Include="PalindromExercise.cpp" />
+    <ClCompile Include="..\IO_exercises\PalindromExercise.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
