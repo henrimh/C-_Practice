@@ -1,2 +1,2 @@
-# C-_Practice
+# Cpp_Practice
 Various C++ exercises.
