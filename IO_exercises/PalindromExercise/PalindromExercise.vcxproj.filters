@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\IO_exercises\PalindromExercise.cpp">
+    <ClCompile Include="PalindromExercise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

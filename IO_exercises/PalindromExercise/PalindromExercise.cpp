@@ -12,7 +12,6 @@ int main()
 	int wordLength = input.length() - 1; // -1 Because for example word "ada" length is 3 but the iteration starts at 0 and ends at 2.
 	int checkUntil = wordLength / 2; // We only need to check half of the letters from both ends of the word.
 
-
 	for (int i = 0; i <= checkUntil; i++)
 	{
 
@@ -24,5 +23,4 @@ int main()
 	}
 	cout << "YES";
 	return 0;
-
 }

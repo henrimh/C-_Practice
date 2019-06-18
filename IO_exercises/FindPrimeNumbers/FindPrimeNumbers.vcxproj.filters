@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\IO_exercises\FindPrimeNumbers.cpp">
+    <ClCompile Include="FindPrimeNumbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
