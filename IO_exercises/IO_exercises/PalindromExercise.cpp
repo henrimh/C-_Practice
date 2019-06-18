@@ -18,12 +18,11 @@ int main()
 		if (input[i] != input[wordLength - i])
 		{
 			cout << "NO";
-			break;
+			return 0;
 		}
-		else if (i == checkUntil)
-		{
-			cout << "YES";
-		}
+	}
+	cout << "YES";
+	return 0;
 
 	}
 }
