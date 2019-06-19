@@ -15,9 +15,6 @@ int main() {
 	string buffer;
 
 	cin >> n;
-	
-	//input = new int[n];
-
 	cin.ignore();	//Got to clear the next char in input stream. Which should be '\n'.
 
 		// For future reference. The next two rows clear the whole input stream.
