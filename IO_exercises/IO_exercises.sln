@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FinalProduct", "FinalProduct\FinalProduct.vcxproj", "{BA93FD39-B29A-486C-B37F-DB0E1BF5B9E2}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anagrams", "Anagrams\Anagrams.vcxproj", "{4DD080B4-BA76-4318-9D7C-C0C3C67349B7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial!", "Factorial!\Factorial!.vcxproj", "{86CB2E6D-2D83-4739-9C99-ED2A648B9886}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToggleString", "ToggleString\ToggleString.vcxproj", "{6988C0BA-00A8-4844-9590-654120F9CF25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{86CB2E6D-2D83-4739-9C99-ED2A648B9886}.Release|x64.Build.0 = Release|x64
 		{86CB2E6D-2D83-4739-9C99-ED2A648B9886}.Release|x86.ActiveCfg = Release|Win32
 		{86CB2E6D-2D83-4739-9C99-ED2A648B9886}.Release|x86.Build.0 = Release|Win32
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Debug|x64.ActiveCfg = Debug|x64
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Debug|x64.Build.0 = Debug|x64
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Debug|x86.ActiveCfg = Debug|Win32
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Debug|x86.Build.0 = Debug|Win32
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Release|x64.ActiveCfg = Release|x64
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Release|x64.Build.0 = Release|x64
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Release|x86.ActiveCfg = Release|Win32
+		{6988C0BA-00A8-4844-9590-654120F9CF25}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
