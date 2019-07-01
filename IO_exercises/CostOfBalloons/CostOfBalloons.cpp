@@ -25,7 +25,7 @@ int main()
 
 	for (int i = 0; i < tests; i++)
 	{
-		cin >> green >> purple; // Apparently you can do this... // When '\n' pressed the program takes istream. Then cin ignores spaces and takes the two numbers as separate inputs. 
+		cin >> green >> purple; // Tou can do this. // Because when reading to an int. The space is ignored because it can't be in int. Then the rest of the input is left on stream and read to the next variable.
 		cin >> participants; // Number of participants in test i.
 
 		for (int j = 0; j < participants; j++)
