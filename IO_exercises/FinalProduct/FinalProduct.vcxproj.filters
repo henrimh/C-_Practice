@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FinalProduct_bad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="FinalProduct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
