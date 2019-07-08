@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{1FA44873-A074-41F8-BD62-BE12003AE412}</ProjectGuid>
-    <RootNamespace>SeatingArrangement</RootNamespace>
+    <ProjectGuid>{201224AD-F62A-49EA-897C-655C4FF77E97}</ProjectGuid>
+    <RootNamespace>TwoStrings</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SeatingArrangement.cpp" />
     <ClCompile Include="TwoStrings.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
