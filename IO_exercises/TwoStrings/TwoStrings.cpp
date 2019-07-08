@@ -34,9 +34,6 @@ int HashFunc(char c)
 // Then it checks if the two string are anagrams by checking the frequency of characters.
 int main()
 {
-
-	int CharFrequencies_1[26] = { 0 }; // Array of "alphabet". Used to track frequency of individual characters in inputted words.
-	int CharFrequencies_2[26] = { 0 };
 	int n;
 	string word, word2;
 
@@ -44,6 +41,9 @@ int main()
 
 	for (int i = 0; i < n; i++)
 	{
+		int CharFrequencies_1[26] = { 0 }; // Array of "alphabet". Used to track frequency of individual characters in inputted words.
+		int CharFrequencies_2[26] = { 0 };
+
 		cin >> word >> word2;
 
 		for (unsigned int j = 0; j < word.length(); j++)
@@ -56,13 +56,6 @@ int main()
 			cout << "YES" << endl;
 		else
 			cout << "NO" << endl;
-		
-		for (int j = 0; j < 26; j++) // Reset the Arrays
-		{
-			CharFrequencies_1[j] = 0;
-			CharFrequencies_2[j] = 0;
-		}
-
 	}
 
 
