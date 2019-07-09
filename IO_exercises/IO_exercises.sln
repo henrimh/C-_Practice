@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SeatingArrangement", "Seati
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoStrings", "TwoStrings\TwoStrings.vcxproj", "{201224AD-F62A-49EA-897C-655C4FF77E97}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BestIndex", "BestIndex\BestIndex.vcxproj", "{46FBE584-0F46-4B9C-99DB-1171496E19AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{201224AD-F62A-49EA-897C-655C4FF77E97}.Release|x64.Build.0 = Release|x64
 		{201224AD-F62A-49EA-897C-655C4FF77E97}.Release|x86.ActiveCfg = Release|Win32
 		{201224AD-F62A-49EA-897C-655C4FF77E97}.Release|x86.Build.0 = Release|Win32
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Debug|x64.ActiveCfg = Debug|x64
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Debug|x64.Build.0 = Debug|x64
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Debug|x86.Build.0 = Debug|Win32
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Release|x64.ActiveCfg = Release|x64
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Release|x64.Build.0 = Release|x64
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Release|x86.ActiveCfg = Release|Win32
+		{46FBE584-0F46-4B9C-99DB-1171496E19AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
