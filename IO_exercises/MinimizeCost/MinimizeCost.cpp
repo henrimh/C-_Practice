@@ -1,3 +1,4 @@
+// Problem description: https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/minimise-cost-89b54cb9/description/
 #include <iostream>
 #include <vector>
 
@@ -8,7 +9,7 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 	long long k, out = 0;
-	int n, last_j = 0;
+	int n, last_j = 0, j;
 	cin >> n;
 	cin >> k;
 
@@ -22,10 +23,14 @@ int main() {
 
 	for (int i = 0; i < arr.size(); ++i)
 	{
-		if (arr[i] <= 0) // If array number is negative. It cannot be transferred.
+		// If array number is negative. It cannot be transferred.
+		if (arr[i] <= 0)
+		{
+			++j;
 			continue;
+		}
 
-		for (int j = last_j; j < arr.size() && j <= i + k; ++j)
+		for (j = last_j; j < arr.size() && j <= i + k; ++j)
 		{
 
 			if (arr[j] + transfer[j] < 0)
@@ -57,7 +62,6 @@ int main() {
 	{
 		out += abs(arr[i] + transfer[i]);
 	}
-	long long out_;
-	//out_ = Solve(k, arr);
+
 	cout << out;
 }
