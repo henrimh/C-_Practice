@@ -25,7 +25,7 @@ int main() {
 		if (arr[i] <= 0) // If array number is negative. It cannot be transferred.
 			continue;
 
-		for (int j = last_j; j < arr.size() && j <= i + k && arr[i] > 0; ++j)
+		for (int j = last_j; j < arr.size() && j <= i + k; ++j)
 		{
 
 			if (arr[j] + transfer[j] < 0)
@@ -47,7 +47,6 @@ int main() {
 
 					break;
 				}
-
 			}
 
 			last_j = j;
